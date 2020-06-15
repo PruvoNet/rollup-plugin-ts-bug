@@ -1,0 +1,32 @@
+{
+  "name": "rollup-plugin-ts-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sources/advanced/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PruvoNet/rollup-plugin-ts-bug.git"
+  },
+  "files": [
+    "lib"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PruvoNet/rollup-plugin-ts-bug/issues"
+  },
+  "scripts": {
+    "build": "rm -rf lib && rollup -c"
+  },
+  "homepage": "https://github.com/PruvoNet/rollup-plugin-ts-bug#readme",
+  "devDependencies": {
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^14.0.13",
+    "@wessberg/rollup-plugin-ts": "^1.2.25",
+    "mocha": "^8.0.1",
+    "rollup": "^2.16.1",
+    "ts-node": "^8.10.2",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.5"
+  }
+}
