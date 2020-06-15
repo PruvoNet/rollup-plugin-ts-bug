@@ -1,7 +1,7 @@
 import ts from "@wessberg/rollup-plugin-ts";
 
 export default {
-  input: './sources/index.ts',
+  input: './sources/advanced/index.ts',
   output: [
     {
       file: 'lib/index.mjs',
